@@ -1,5 +1,5 @@
 * {
-    margin: 1px;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box; 
 }
@@ -16,20 +16,19 @@ body {
 }
 
 .contenedor-principal {
-    display: flex;       
+    display: flex;     
     flex-wrap: nowrap;   
     gap: 20px;           
     padding: 20px;
-    width: 100%;
-    overflow-x: auto;   
+    width: 1400px;
+    overflow-x: auto;  
+    margin: 0 auto;
 }
 
-.tarjeta {
-    flex: 0 0 340px;   
-}
-
-
-
+ .tarjeta {
+     flex: 0 0 340px; 
+ }
+ 
 .tarjeta {
     background-color: rgba(253, 252, 252, 0);
     width: 350px;
@@ -66,13 +65,13 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #110d0d;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
 .subtitulo {
-    color: #666;
+    color: #000000;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.8rem;
@@ -90,8 +89,8 @@ h1 {
 }
 
 .btn-contacto {
-    margin-top: 2rem;
-    background-color: #007bff;
+    margin-top: auto;
+    background-color: #f1070779;
     color: rgb(255, 255, 255);
     border: none;
     padding: 10px 20px;
