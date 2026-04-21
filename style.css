@@ -9,6 +9,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
     background-image: url(https://img.freepik.com/vector-gratis/microfono-vintage-escenario-iluminado-cortina-roja-tres-focos-colgantes-piso-madera-ilustracion-vectorial_1284-33553.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
